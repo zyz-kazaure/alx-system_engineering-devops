@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aX | sed -e 's/\(.*\)\//\1\//' | tr '\n' ',' | sed -e 's/,$/\n/'
+ls -amvp
